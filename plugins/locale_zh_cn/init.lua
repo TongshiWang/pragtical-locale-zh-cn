@@ -193,7 +193,7 @@ local PATTERNS = {
 }
 
 tr = function(text)
-  if type(text) ~= "string" or text == "" then
+  if not M.enabled or type(text) ~= "string" or text == "" then
     return text
   end
 
@@ -480,6 +480,14 @@ local function wrap_widgets()
       text = tr(text)
     end
     return orig_set_label(self, text)
+  end
+
+  local orig_label_set_label = Label.set_label
+  function Label:set_label(text)
+    if type(text) == "string" and not self.wrapping then
+      text = tr(text)
+    end
+    return orig_label_set_label(self, text)
   end
 
   local orig_widget_get_name = Widget.get_name
