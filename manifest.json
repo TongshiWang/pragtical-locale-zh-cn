@@ -4,7 +4,7 @@
       "id": "locale_zh_cn",
       "name": "Simplified Chinese Localization (简体中文汉化)",
       "description": "Simplified Chinese (zh-CN) UI localization for Pragtical covering menus, settings, dialogs, status bar, and Plugin Manager.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "mod_version": "3",
       "type": "plugin",
       "path": "plugins/locale_zh_cn",

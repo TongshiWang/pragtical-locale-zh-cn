@@ -157,6 +157,8 @@ return {
   ["Increase Opacity"] = "提高窗口不透明度",
   ["Decrease Opacity"] = "降低窗口不透明度",
   ["JetBrains SVG Icons"] = "JetBrains SVG 图标",
+  ["File Tree SVG Icons"] = "文件树 SVG 图标",
+  ["Editor Tab SVG Icons"] = "标签栏 SVG 图标",
 
   -- 工具菜单
   ["Command Palette…"] = "命令面板…",

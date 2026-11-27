@@ -284,5 +284,11 @@ return {
   ["Flying Island: Increase Opacity"] = "Flying Island：提高不透明度",
   ["Flying Island: Decrease Opacity"] = "Flying Island：降低不透明度",
   ["Flying Island: Toggle Island Style"] = "Flying Island：切换悬浮浮岛样式",
+  ["Flying Island: Toggle Island Panels"] = "Flying Island：切换圆角浮岛面板",
+  ["Flying Island: Toggle Pill Tabs"] = "Flying Island：切换胶囊标签页",
+  ["Flying Island: Toggle Tree Rows"] = "Flying Island：切换文件树圆角行与箭头",
+  ["Flying Island: Toggle Toolbar Style"] = "Flying Island：切换工具栏样式",
   ["Flying Island: Toggle Icons"] = "Flying Island：切换 JetBrains 图标",
+  ["Flying Island: Toggle Treeview Icons"] = "Flying Island：切换文件树图标",
+  ["Flying Island: Toggle Tab Icons"] = "Flying Island：切换标签栏图标",
 }
