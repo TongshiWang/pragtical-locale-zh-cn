@@ -4,7 +4,7 @@
 [![Release](https://img.shields.io/github/v/release/TongshiWang/pragtical-locale-zh-cn?color=549159)](https://github.com/TongshiWang/pragtical-locale-zh-cn/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> **English Summary**: Simplified Chinese (`zh-CN`) UI localization plugin for [Pragtical](https://pragtical.dev/) (`mod-version: 3`), translating top/context menus, settings panels, dialogs, status bar tooltips, command prompts, and the Plugin Manager without modifying built-in files. Compatible with Windows, Linux, and macOS. Install via PPM: `ppm repo add https://github.com/TongshiWang/pragtical-locale-zh-cn.git:main && ppm install locale_zh_cn`.
+> **English Summary**: Simplified Chinese (`zh-CN`) UI localization plugin for [Pragtical](https://pragtical.dev/) (`mod-version: 3`), now officially listed in `pragtical/plugins`. Translates top/context menus, settings panels, dialogs, status bar tooltips, command prompts, and the Plugin Manager without modifying built-in files. Compatible with Windows, Linux, and macOS. Install via PPM: `ppm install locale_zh_cn`.
 
 [Pragtical](https://pragtical.dev/) 文本编辑器的**简体中文界面汉化插件**（`mod-version: 3`），不修改编辑器内置文件，支持 Windows / Linux / macOS 全平台。
 
@@ -37,14 +37,16 @@
 
 ## 安装方法
 
-### 方式一：通过 PPM 安装（推荐，全平台适用）
+### 方式一：通过 PPM / 官方插件管理器安装（推荐，全平台适用）
+
+现已正式收录进 Pragtical 官方插件市场！一行命令即可安装：
 
 ```sh
-ppm repo add https://github.com/TongshiWang/pragtical-locale-zh-cn.git:main
 ppm install locale_zh_cn
 ```
 
-或在 Pragtical 中打开 **Tools > Plugin Manager > Add Repository URL**，填入 `https://github.com/TongshiWang/pragtical-locale-zh-cn.git:main` 并安装 `locale_zh_cn`。
+- 也可以直接在 Pragtical 中打开 **Tools > Plugin Manager**，搜索 **`locale_zh_cn`** 一键安装。
+- *（可选）* 如需跟踪 `main` 分支最新提交，可先执行 `ppm repo add https://github.com/TongshiWang/pragtical-locale-zh-cn.git:main`。
 
 ### 方式二：PowerShell 一键安装（Windows）
 
